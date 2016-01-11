@@ -13,6 +13,13 @@
 		2BD7817A1C4396F40087A37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD781781C4396F40087A37C /* Main.storyboard */; };
 		2BD7817C1C4396F40087A37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7817B1C4396F40087A37C /* Assets.xcassets */; };
 		2BD7817F1C4396F40087A37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7817D1C4396F40087A37C /* LaunchScreen.storyboard */; };
+		2BD781881C4397220087A37C /* CMPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD781871C4397220087A37C /* CMPlayerView.m */; };
+		2BD7818A1C4397340087A37C /* test0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BD781891C4397340087A37C /* test0.mp4 */; };
+		2BD781901C43974D0087A37C /* fullScreenPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7818B1C43974D0087A37C /* fullScreenPlay@2x.png */; };
+		2BD781911C43974D0087A37C /* ico_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7818C1C43974D0087A37C /* ico_play@2x.png */; };
+		2BD781921C43974D0087A37C /* originalScreenPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7818D1C43974D0087A37C /* originalScreenPlay@2x.png */; };
+		2BD781971C439E9B0087A37C /* videoPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD781951C439E9B0087A37C /* videoPause@2x.png */; };
+		2BD781981C439E9B0087A37C /* videoPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD781961C439E9B0087A37C /* videoPlay@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,14 @@
 		2BD7817B1C4396F40087A37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD7817E1C4396F40087A37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD781801C4396F40087A37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD781861C4397220087A37C /* CMPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPlayerView.h; sourceTree = "<group>"; };
+		2BD781871C4397220087A37C /* CMPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPlayerView.m; sourceTree = "<group>"; };
+		2BD781891C4397340087A37C /* test0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test0.mp4; sourceTree = "<group>"; };
+		2BD7818B1C43974D0087A37C /* fullScreenPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreenPlay@2x.png"; sourceTree = "<group>"; };
+		2BD7818C1C43974D0087A37C /* ico_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_play@2x.png"; sourceTree = "<group>"; };
+		2BD7818D1C43974D0087A37C /* originalScreenPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "originalScreenPlay@2x.png"; sourceTree = "<group>"; };
+		2BD781951C439E9B0087A37C /* videoPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPause@2x.png"; sourceTree = "<group>"; };
+		2BD781961C439E9B0087A37C /* videoPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPlay@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,8 @@
 				2BD781731C4396F40087A37C /* AppDelegate.m */,
 				2BD781751C4396F40087A37C /* ViewController.h */,
 				2BD781761C4396F40087A37C /* ViewController.m */,
+				2BD781861C4397220087A37C /* CMPlayerView.h */,
+				2BD781871C4397220087A37C /* CMPlayerView.m */,
 				2BD781781C4396F40087A37C /* Main.storyboard */,
 				2BD7817B1C4396F40087A37C /* Assets.xcassets */,
 				2BD7817D1C4396F40087A37C /* LaunchScreen.storyboard */,
@@ -74,6 +91,12 @@
 		2BD7816F1C4396F40087A37C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BD7818B1C43974D0087A37C /* fullScreenPlay@2x.png */,
+				2BD7818C1C43974D0087A37C /* ico_play@2x.png */,
+				2BD7818D1C43974D0087A37C /* originalScreenPlay@2x.png */,
+				2BD781951C439E9B0087A37C /* videoPause@2x.png */,
+				2BD781961C439E9B0087A37C /* videoPlay@2x.png */,
+				2BD781891C4397340087A37C /* test0.mp4 */,
 				2BD781701C4396F40087A37C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,7 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD7818A1C4397340087A37C /* test0.mp4 in Resources */,
+				2BD781971C439E9B0087A37C /* videoPause@2x.png in Resources */,
+				2BD781901C43974D0087A37C /* fullScreenPlay@2x.png in Resources */,
+				2BD781981C439E9B0087A37C /* videoPlay@2x.png in Resources */,
+				2BD781911C43974D0087A37C /* ico_play@2x.png in Resources */,
 				2BD7817F1C4396F40087A37C /* LaunchScreen.storyboard in Resources */,
+				2BD781921C43974D0087A37C /* originalScreenPlay@2x.png in Resources */,
 				2BD7817C1C4396F40087A37C /* Assets.xcassets in Resources */,
 				2BD7817A1C4396F40087A37C /* Main.storyboard in Resources */,
 			);
@@ -150,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD781771C4396F40087A37C /* ViewController.m in Sources */,
+				2BD781881C4397220087A37C /* CMPlayerView.m in Sources */,
 				2BD781741C4396F40087A37C /* AppDelegate.m in Sources */,
 				2BD781711C4396F40087A37C /* main.m in Sources */,
 			);
@@ -262,8 +292,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cherrys.AVPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -273,8 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cherrys.AVPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
